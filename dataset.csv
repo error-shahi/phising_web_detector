@@ -1,0 +1,10 @@
+url,label
+https://google.com,0
+https://facebook.com,0
+http://secure-login-paypal.com,1
+http://verify-account-update.net,1
+http://192.168.1.1/login,1
+https://github.com/user/repo, 0
+https://google.com/search?q=openai, 0
+https://amazon.in/gp/product/B09, 0
+https://docs.python.org/3/library/, 0

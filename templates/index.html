@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phishing Website Detector</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🛡️ CYBER PHISH SHIELD</h1>
+    <p class="subtitle">AI-Powered Ethical Cybersecurity Scanner</p>
+
+    <form action="/scan" method="POST">
+        <input type="text" name="url" placeholder="Enter website URL (https://...)" required>
+        <button type="submit">🔍 Scan Website</button>
+    </form>
+
+    <div class="footer">
+        Built for Ethical Cyber Defense • AI + ML Powered
+    </div>
+</div>
+
+</body>
+</html>

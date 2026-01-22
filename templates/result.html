@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scan Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔐 Scan Result</h1>
+
+    <p class="url">{{ url }}</p>
+
+    {% if "PHISHING" in result %}
+        <h2 class="result-phish">{{ result }}</h2>
+    {% else %}
+        <h2 class="result-safe">{{ result }}</h2>
+    {% endif %}
+
+    <a href="/" class="link">🔁 Scan Another Website</a>
+
+    <div class="footer">
+        Stay Alert • Stay Secure • Ethical Cyber World
+    </div>
+</div>
+
+</body>
+</html>
